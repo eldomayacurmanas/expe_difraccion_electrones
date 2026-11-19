@@ -1,0 +1,48 @@
+\iffalse
+\section{DISCUSION}
+La limitacion del experimento realizado es que solo podemos obtener el valor de
+$\epsilon \cdot \sigma$. Con lo cual, si queremos usar el resultado para estimar
+alguno de estos parametros, es necesario obtener el valor del otro a partir de
+otra experiencia.
+
+\subsection*{Calculo de sigma a partir de una emisividad tabulada}
+ver comentario en el codigo
+% amigo no le veo nada de sentido a hacer este.
+% Ese alguien calculo ese epsilon en funcion del sigma tabulado y sus mediciones.
+% Si nuestro resultado tiene error, calcular algo con ese valor va a tener doblemente error.
+% Calculemos el epsilon y lo comparemos con el epsilon de ese alguien y veamos por que da tanto mas chico.
+% No se cual decis vos.
+
+\subsection*{Calculo de la emisividad a partir de sigma tabulado}
+Tomando como referencia el valor tabulado
+$\sigma = 5.670374 \cdot 10^{-8}\,\mathrm{W\,m^{-2}\,K^{-4}}$, los valores de
+emisividad $\epsilon$ inferidos se resumen en la tabla \ref{tab:epsilon}.
+
+\begin{table}
+    \begin{center}
+        \begin{tabular}{| c | c |}
+            relacion & $\epsilon$ \\ \hline
+            C1 - C2 & $0.65 \pm 0.09$ \\
+            C2 - C3 & $0.735 \pm 0.007$ \\ \hline
+        \end{tabular}
+        \caption{Valores de $\epsilon$ obtenidos a partir de los ajustes realizados.}
+        \label{tab:epsilon}
+    \end{center}
+\end{table}
+
+Estos valores son demasiado bajos y no son comparables con el valor nominal
+0.97 asignado a la pintura negra mate en informes previos de Gatto y
+Z\'u\~niga\cite{gatto}. Al combinar en cuadratura la incerteza
+instrumental con la del ajuste, las estimaciones de $\sigma$ para las relaciones
+$C2$-$C3$ quedan limitadas en buena medida por la propagacion instrumental,
+mientras que en $C1$-$C2$ sigue dominando la dispersion del ajuste. La
+diferencia en los valores que involucran al cilindro 1, en particular la
+mostrada en el grafico \ref{fig:fit12}, puede deberse a una falla en el
+termometro utilizado para el cilindro 1 o en algun punto del circuito. Sin
+embargo, la relacion entre los cilindros 2 y 3 tampoco da un valor de
+emisividad cercano, asi que tambien es posible que se haya da\~nado la pintura de
+los cilindros, que los cilindros no sean equivalentes o que algun valor usado
+en el procedimiento no haya sido bien medido.
+\fi
+
+\section{DISCUSION}
