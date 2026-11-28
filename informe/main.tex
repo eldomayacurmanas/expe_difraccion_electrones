@@ -37,13 +37,7 @@
 \usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
 \usepackage{lipsum}  
 \usepackage[superscript]{cite}  %REFERENCIAS EN SUPERÍNDICE
-\usepackage{hyperref}
-
-\hypersetup{
-    colorlinks=true,
-    linkcolor=black,
-    citecolor=black
-}
+\usepackage{siunitx}{}
 
 % Ajusta los captions de tablas y figuras a italics
 \usepackage[format=plain,
@@ -104,7 +98,12 @@
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 \renewcommand\thesection{\Roman{section}}
 \renewcommand\thesubsection{}
-
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    citecolor=black
+}
 
 
 %%% PARA EL FORMATO DE TABLAS
